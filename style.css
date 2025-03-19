@@ -76,6 +76,7 @@ section.testimonials {
   flex-direction: column;
   gap: 0.9rem;
   margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 div.testimonial {
