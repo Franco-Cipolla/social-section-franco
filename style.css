@@ -23,26 +23,101 @@ body {
   justify-content: center;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-section.hero h1{
-    color: var(--clr-very-dark-magenta);
-    font-size: 2.5em;
-    margin-inline: auto;
-    padding: 50px 50px 0px 50px;
-    text-align: center;
-    margin-bottom: 1.5rem;
+section.hero h1 {
+  color: var(--clr-very-dark-magenta);
+  font-size: 2.5em;
+  margin-inline: auto;
+  padding: 50px 50px 0px 50px;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
-section.hero p{
-    text-align: center;
-    margin-inline: auto;
-    font-size: 19px;
-    padding: 0px 21px 0px 21px;
-    color: var(--clr-dark-grayish-magenta);
-    line-height: 1.3em;
+section.hero p {
+  text-align: center;
+  margin-inline: auto;
+  font-size: 19px;
+  padding: 0px 18px 0px 18px;
+  color: var(--clr-dark-grayish-magenta);
+  line-height: 1.3em;
+  font-weight: var(--fw-normal);
+  margin-bottom: 2.3rem;
+}
+
+section.ratings {
+  padding: 0px 18px 0px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+div.rating {
+  width: 100%;
+  background-color: var(--clr-light-grayish-magenta);
+  border-radius: 0.5rem;
+  padding: 20px;
+  text-align: center;
+}
+
+div.rating h2 {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: var(--clr-very-dark-magenta);
+  font-weight: var(--fw-bold);
+}
+
+section.testimonials {
+  padding: 0px 18px 0px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 3rem;
+}
+
+div.testimonial {
+  background-color: var(--clr-very-dark-magenta);
+  padding: 35px;
+  border-radius: 0.5rem;
+}
+
+div.testimonial div.buyer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+div.testimonial div.buyer img {
+  max-width: 38px;
+  max-height: 38px;
+  border-radius: 50%;
+}
+
+div.testimonial div.buyer div.name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+div.testimonial div.buyer h3 {
+  color: var(--clr-white);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+div.testimonial div.buyer p {
+  color: var(--clr-soft-pink);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+div.testimonial p {
+  color: var(--clr-white);
+  line-height: 1.4em;
+  padding-right: 30px;
 }
