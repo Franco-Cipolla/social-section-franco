@@ -140,7 +140,6 @@ div.testimonial p {
     text-align: left;
     padding-left: 0;
     padding-right: 15rem;
-
   }
 
   section.hero p {
@@ -152,17 +151,13 @@ div.testimonial p {
     line-height: 1.3em;
     font-weight: var(--fw-normal);
     margin-bottom: 2.3rem;
-
   }
-
-
 
   section.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   section.ratings {
@@ -172,7 +167,6 @@ div.testimonial p {
     justify-content: center;
     gap: 1rem;
     margin-right: 50px;
-
   }
   div.rating {
     display: flex;
@@ -206,10 +200,9 @@ div.testimonial p {
     justify-content: flex-start;
     grid-column: span 2;
     gap: 2rem;
-
   }
 
-  div.testimonial{
+  div.testimonial {
     max-width: 26.9%;
   }
 
@@ -227,14 +220,14 @@ div.testimonial p {
   }
 }
 
-@media only screen and (max-width: 1354px) and (min-width: 850px){
-  section.ratings{
+@media only screen and (max-width: 1354px) and (min-width: 850px) {
+  section.ratings {
     flex-direction: row;
   }
 }
 
-@media only screen and (max-width: 1354px) and (min-width: 750px){
-  section.testimonials{
+@media only screen and (max-width: 1354px) and (min-width: 750px) {
+  section.testimonials {
     flex-direction: row;
   }
 }
