@@ -29,6 +29,10 @@ body {
   padding: 0;
 }
 
+br {
+  display: none;
+}
+
 section.hero h1 {
   color: var(--clr-very-dark-magenta);
   font-size: 2.5em;
@@ -121,4 +125,104 @@ div.testimonial p {
   color: var(--clr-white);
   line-height: 1.4em;
   padding-right: 30px;
+}
+
+@media (min-width: 1320px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 100%;
+    max-width: 100%;
+    padding: 50px 150px 50px 150px;
+  }
+  section.hero h1 {
+    font-size: 3.7em;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 15rem;
+
+  }
+
+  section.hero p {
+    text-align: left;
+    font-size: 19px;
+    padding: 0;
+    padding-right: 16rem;
+    color: var(--clr-dark-grayish-magenta);
+    line-height: 1.3em;
+    font-weight: var(--fw-normal);
+    margin-bottom: 2.3rem;
+
+  }
+
+
+
+  section.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  section.ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 50px;
+
+  }
+  div.rating {
+    display: flex;
+    max-width: 67%;
+    padding: 14px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  div.rating img {
+    justify-self: left;
+  }
+
+  div.rating h2 {
+    margin-left: 2rem;
+    margin-bottom: 3px;
+  }
+
+  div.rating.first {
+    margin-right: 7rem;
+  }
+  div.rating.third {
+    margin-left: 7rem;
+  }
+  section.testimonials {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    grid-column: span 2;
+    gap: 2rem;
+
+  }
+
+  div.testimonial{
+    max-width: 26.9%;
+  }
+
+  div.testimonial p {
+    line-height: 1.6em;
+    width: 100%;
+  }
+
+  div.testimonial.first {
+    margin-bottom: 3rem;
+  }
+
+  div.testimonial.third {
+    margin-top: 3rem;
+  }
 }
