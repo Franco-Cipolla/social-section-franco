@@ -190,7 +190,6 @@ div.testimonial p {
     align-items: center;
   }
 
-
   section.testimonials .first {
     margin-bottom: 3rem;
   }
@@ -200,8 +199,7 @@ div.testimonial p {
   }
 }
 @media only screen and (max-width: 1354px) and (min-width: 850px) {
-
-  main{
+  main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -213,14 +211,13 @@ div.testimonial p {
     gap: 10px; /* Space between items */
     grid-column: span 2;
     align-items: center;
-
   }
 
-  div.testimonial{
+  div.testimonial {
     min-height: 100%;
   }
 
-  div.third{
+  div.third {
     grid-column: span 2;
   }
 }
