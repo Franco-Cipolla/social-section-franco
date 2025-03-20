@@ -190,6 +190,7 @@ div.testimonial p {
     align-items: center;
   }
 
+
   section.testimonials .first {
     margin-bottom: 3rem;
   }
@@ -198,11 +199,7 @@ div.testimonial p {
     margin-top: 3rem;
   }
 }
-@media only screen and (max-width: 1354px) and (min-width: 850px) {
-  section.ratings {
-    flex-direction: row;
-  }
-}
+
 
 @media only screen and (max-width: 1354px) and (min-width: 750px) {
   section.testimonials {
